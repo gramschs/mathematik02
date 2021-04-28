@@ -1,8 +1,10 @@
-name: simone-environment
+name: python38
 channels:
-  - conda-forge
+  - defaults
 dependencies:
-  - numpy
-  - pillow
+  - python=3.8
+  - jupyter
   - matplotlib
   - sympy
+  - nodejs
+  - ipympl
